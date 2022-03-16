@@ -1,60 +1,59 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-  .calculator-container {
-    max-width: 500px;
-    margin: 80px 500px 0 500px;    
-  }
+.calculator-container {
+  max-width: 500px;
+  margin: 80px 500px 0 500px;
+}
 
-  .display {
-    background-color: #858693;
-    text-align: right;
-    color: #fff;
-    height: 50px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    padding: 15px 10px 15px 0;    
-  }
+.display {
+  background-color: #858693;
+  text-align: right;
+  color: #fff;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 15px 10px 15px 0;
+}
 
-  .list-btn {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    height: 50px;
-  }
+.list-btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  height: 50px;
+}
 
-  .list-btn-item {
-    min-width: 50px;
-    background-color: #e0e0e0;
-    border: thin solid #bababa;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: italic;
-    font-size: 1.1rem;
-    cursor: pointer;
-    outline: none;
-    transition: 0.2s all;
-  }
+.list-btn-item {
+  min-width: 50px;
+  background-color: #e0e0e0;
+  border: thin solid #bababa;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
 
-  .list-btn-item:hover {
-    background-color: rgba(56, 56, 61, 0.575);
-    color: #fff;
-  }
+.list-btn-item:hover {
+  background-color: rgba(56, 56, 61, 0.575);
+  color: #fff;
+}
 
-  .list-btn-item:active {
-    transform: scale(0.85);
-    box-shadow: 3px 2px 25px 1px rgba(0, 0, 0, 0.25);
-  }
+.list-btn-item:active {
+  transform: scale(0.85);
+  box-shadow: 3px 2px 25px 1px rgba(0, 0, 0, 0.25);
+}
 
-  .operator {
-      background-color: orange;
-  }
+.operator {
+  background-color: orange;
+}
 
-  .last-row {
-    grid-template-columns: 2fr 1fr 1fr;
-  }
+.last-row {
+  grid-template-columns: 2fr 1fr 1fr;
+}
