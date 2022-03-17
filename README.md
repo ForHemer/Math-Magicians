@@ -44,7 +44,7 @@ In order to install a local version of this project and please do the following 
 - open the repository cloned with `cd Math-Magicians`
 - if your code editor is VsCode type `code .`
 - Install npm dependencies with `npm install`
-- To run it type `nmp start`
+- To run it type `npm start`
 - and enjoy!
 
 
