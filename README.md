@@ -7,9 +7,11 @@
 
 ## Screenshot
 
-![Screenshot from 2022-03-16 15-10-02](https://user-images.githubusercontent.com/88809610/158707611-ab751c86-6740-4f92-99d3-40ac86214c08.png)
+![Screenshot from 2022-03-22 20-43-29](https://user-images.githubusercontent.com/88809610/159717739-172d6e5d-a4d1-42a6-8d56-39f9d7434a94.png)
 
-## Built With
+![Screenshot from 2022-03-23 10-06-14](https://user-images.githubusercontent.com/88809610/159719097-caf23ca8-1e3a-4949-80b0-f4908cd33860.png)
+
+ ## Built With
 
 - HTML, CSS, JavaScript
 - Technologies used: GitHub, VScode, nodejs, React, GIT.
