@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<section
+  className="Home"
+>
+  <h1>
+    Welcome to our Page!
+  </h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et est tortor. Pellentesque justo eros, fermentum tempus nisi sed, malesuada scelerisque ligula. Nulla et vulputate nulla. Integer viverra ligula sapien. Donec non eros at justo interdum tempus.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et est tortor. Pellentesque justo eros, fermentum tempus nisi sed, malesuada scelerisque ligula. Nulla et vulputate nulla. Integer viverra ligula sapien. Donec non eros at justo interdum tempus.
+  </p>
+</section>
+`;
