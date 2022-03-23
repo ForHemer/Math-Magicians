@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="quote-container"
+>
+  <p>
+    <span
+      className="theQuote"
+    >
+      Mathematics is not about numbers equations, computations, or algorithms. It is about undersatanding.
+    </span>
+    <span
+      className="theAuthor"
+    >
+      -William paul Thurston
+    </span>
+  </p>
+</div>
+`;
