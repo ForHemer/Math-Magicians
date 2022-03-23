@@ -13,7 +13,20 @@ describe('test for operate logic', () => {
     const numberOne = 10;
     const numberTwo = 5;
     const operation = '-';
-    expect(operate(numberOne, numberTwo, operation)).toBe('5');    
+    expect(operate(numberOne, numberTwo, operation)).toBe('5');
   });
 
+  it('dividing 2 by 0 should return "Cant divide by 0."', () => {
+    expect(operate(2, 0, '÷')).toBe("Can't divide by 0.");
+  });
+
+  it('2 modulo 2 should return "0"', () => {
+    expect(operate(2, 2, '%')).toEqual('0');
+  });
+
+  it(`2 modulo 0 should return "Can't find modulo as can't divide by 0."`, () => {
+    expect(operate(2, 0, '%')).toEqual(
+      "Can't find modulo as can't divide by 0.",
+    );
+  });
 });
