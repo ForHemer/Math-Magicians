@@ -8,8 +8,8 @@
 .PageContainer {
   background-image: url(./background-math.webp);
   background-repeat: no-repeat;
-  background-size: cover; 
-  padding-bottom: 260px;  
+  background-size: cover;
+  padding-bottom: 260px;
 }
 
 .content > p {
@@ -22,7 +22,7 @@
 
 .calculator-container {
   max-width: 500px;
- margin: 0 500px 0 500px;  
+  margin: 0 500px 0 500px;
 }
 
 .display {
@@ -137,20 +137,20 @@ ul li:not(:first-child)::before {
   gap: 2rem;
   background-image: url(./background-math.webp);
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
 }
 
 .Home h1 {
   font-size: 1.8rem;
   font-weight: bold;
   color: #fff;
-  margin-top: 50px;  
+  margin-top: 50px;
 }
 
 .Home > p {
   width: 80%;
   font-size: 1.3rem;
-  color: #fff;  
+  color: #fff;
 }
 
 /* Stylize quote */
