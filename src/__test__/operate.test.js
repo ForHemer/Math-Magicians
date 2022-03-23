@@ -24,7 +24,7 @@ describe('test for operate logic', () => {
     expect(operate(2, 2, '%')).toEqual('0');
   });
 
-  it(`2 modulo 0 should return "Can't find modulo as can't divide by 0."`, () => {
+  it('2 modulo 0 should return "Can\'t find modulo as can\'t divide by 0."', () => {
     expect(operate(2, 0, '%')).toEqual(
       "Can't find modulo as can't divide by 0.",
     );
