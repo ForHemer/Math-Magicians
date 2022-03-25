@@ -18,7 +18,9 @@
 
 ## Live Demo
 
-Click [here](https://forhemer.github.io/Math-Magicians/) to see the live demo.
+- Click [here](https://forhemer.github.io/Math-Magicians/) to see the live demo on GitHub.
+- Click [here](https://forhemer-math-magicians.herokuapp.com/) to see the live demo on Heroku.
+- Click [here](https://forhemer-math-magicians.netlify.app/) to see the live demo on Netlify.
 
 
 ## Getting Started
