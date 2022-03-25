@@ -1,39 +1,183 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Stylize and positioning the calculator */
+.PageContainer {
+  background-image: url(./background-math.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 260px;
+}
+
+.content > p {
+  font-size: 1.8em;
+  color: #fff;
+  font-weight: bold;
   text-align: center;
+  padding: 80px 500px 50px 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calculator-container {
+  max-width: 500px;
+  margin: 0 500px 0 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.display {
+  background-color: #858693;
+  text-align: right;
+  color: #fff;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 15px 10px 15px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list-btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  height: 50px;
+}
+
+.list-btn-item {
+  min-width: 50px;
+  background-color: #e0e0e0;
+  border: thin solid #bababa;
+  margin: 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
 }
 
-.App-link {
-  color: #61dafb;
+.list-btn-item:hover {
+  background-color: rgba(56, 56, 61, 0.575);
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.list-btn-item:active {
+  transform: scale(0.85);
+  box-shadow: 3px 2px 25px 1px rgba(0, 0, 0, 0.25);
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.operator {
+  background-color: orange;
+}
+
+.last-row {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+/* Stylize and positioning NavBar */
+nav {
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: rgb(51, 67, 90);
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ul li:not(:first-child)::before {
+  content: "";
+  border-left: 2px solid #fff;
+  padding: 0 0 0 1rem;
+  margin-left: 1rem;
+}
+
+.logo {
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.logo.active {
+  text-decoration: none;
+}
+
+/* Stylize home */
+.Home {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+  padding-right: 200px;
+  gap: 2rem;
+  background-image: url(./background-math.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Home h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.Home > p {
+  width: 80%;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+/* Stylize quote */
+.quote-container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./background-math.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 150px;
+}
+
+.quote-container > p {
+  width: 70%;
+  color: #fff;
+  margin-top: -300px;
+}
+
+.quote-container .theQuote {
+  font-size: 1.3rem;
+}
+
+.quote-container .theAuthor {
+  font-size: 1.3rem;
+  padding-left: 10px;
+  font-weight: bold;
 }
